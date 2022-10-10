@@ -1,6 +1,6 @@
 import { HttpException, Inject, Injectable } from '@nestjs/common';
 import { Console } from 'console';
-import { ROLE_REPOSITORY } from 'src/common/constants';
+import { ROLE_REPOSITORY } from '../common/constants';
 import { RoleDto } from './dto/role.dto';
 import { Role } from './entity/role.entity';
 

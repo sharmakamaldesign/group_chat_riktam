@@ -1,8 +1,8 @@
 import { Body, Controller, Get, Param, Post } from '@nestjs/common';
 import { ApiBearerAuth, ApiTags } from '@nestjs/swagger';
-import { UserDto } from 'src/auth/dto/user.dto';
-import { CurrentUser } from 'src/common/decorators/permission.decorator';
-import { Public } from 'src/common/decorators/public.decorator';
+import { UserDto } from '../auth/dto/user.dto';
+import { CurrentUser } from '../common/decorators/permission.decorator';
+import { Public } from '../common/decorators/public.decorator';
 import { UserService } from './user.service';
 @ApiTags('User')
 @ApiBearerAuth('access-token')

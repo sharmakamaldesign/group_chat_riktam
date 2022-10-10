@@ -1,7 +1,7 @@
 import { HttpException, Inject, Injectable } from '@nestjs/common';
 import { group } from 'console';
-import { CHAT_REPOSITORY, GROUP_REPOSITORY, GROUP_USER_MAPPING_REPOSITORY, LIKE_REPOSITORY } from 'src/common/constants';
-import { User } from 'src/user/entity/user.entity';
+import { CHAT_REPOSITORY, GROUP_REPOSITORY, GROUP_USER_MAPPING_REPOSITORY, LIKE_REPOSITORY } from '../common/constants';
+import { User } from '../user/entity/user.entity';
 import { GroupDto } from './dto/group.dto';
 import { Chat } from './entity/chat.entity';
 import { Group } from './entity/group.entity';

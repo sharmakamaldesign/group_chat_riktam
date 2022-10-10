@@ -1,8 +1,8 @@
 import { HttpException, Inject, Injectable } from '@nestjs/common';
-import { AuthService } from 'src/auth/auth.service';
-import { UserDto } from 'src/auth/dto/user.dto';
-import { ROLE_REPOSITORY, USER_REPOSITORY, USER_ROLE_MAPPING_REPOSITORY } from 'src/common/constants';
-import { Role } from 'src/master/entity/role.entity';
+import { AuthService } from '../auth/auth.service';
+import { UserDto } from '../auth/dto/user.dto';
+import { ROLE_REPOSITORY, USER_REPOSITORY, USER_ROLE_MAPPING_REPOSITORY } from '../common/constants';
+import { Role } from '../master/entity/role.entity';
 import { UserRoleMapping } from './entity/user-role-mapping.entity';
 import { User } from './entity/user.entity';
 import * as bcrypt from 'bcrypt';

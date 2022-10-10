@@ -1,4 +1,4 @@
-import { Role } from 'src/master/entity/role.entity';
+import { Role } from '../master/entity/role.entity';
 import { ROLE_REPOSITORY } from '../common/constants';
 
 export const masterProviders = [

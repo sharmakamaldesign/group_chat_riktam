@@ -2,7 +2,7 @@ import { Body, Controller, Delete, Get, Param, Post } from '@nestjs/common';
 import { ApiBearerAuth, ApiTags } from '@nestjs/swagger';
 import { group } from 'console';
 import { userInfo } from 'os';
-import { CurrentUser } from 'src/common/decorators/permission.decorator';
+import { CurrentUser } from '../common/decorators/permission.decorator';
 import { ChatService } from './chat.service';
 import { AddGroupUserDto } from './dto/add_group_user.dto';
 import { ChatDto } from './dto/chat.dto';

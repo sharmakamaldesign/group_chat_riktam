@@ -1,6 +1,6 @@
 import { Table, Column, Model, DataType, AllowNull } from 'sequelize-typescript';
-import { defaultTableConfig } from 'src/common/database/database.config';
-import { BaseEntity } from 'src/common/entity/base.entity';
+import { defaultTableConfig } from '../../common/database/database.config';
+import { BaseEntity } from '../../common/entity/base.entity';
 
 @Table({
     tableName: 'role',

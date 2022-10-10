@@ -84,6 +84,8 @@ npm install --save @nestjs/jwt passport-jwt
 npm install --save @nestjs/swagger@5.1.5
 npm install --save swagger-ui-express
 npm i bcrypt
+npm i --save-dev @nestjs/testing
+
  
 # postgres required query
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
@@ -93,3 +95,6 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 CREATE SCHEMA users;
 CREATE SCHEMA master;
 CREATE SCHEMA chat;
+
+# Unit testing command
+npm run test:e2e

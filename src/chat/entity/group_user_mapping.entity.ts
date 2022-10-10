@@ -1,7 +1,7 @@
 import { Table, Column, Model, DataType, AllowNull, BelongsTo, ForeignKey, IsUUID } from 'sequelize-typescript';
-import { defaultTableConfig } from 'src/common/database/database.config';
-import { BaseEntity } from 'src/common/entity/base.entity';
-import { User } from 'src/user/entity/user.entity';
+import { defaultTableConfig } from '../../common/database/database.config';
+import { BaseEntity } from '../../common/entity/base.entity';
+import { User } from '../../user/entity/user.entity';
 import { Role } from '../../master/entity/role.entity';
 import { Group } from './group.entity';
 
